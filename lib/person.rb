@@ -54,7 +54,7 @@ class Person
       @hygiene = 10
     end
     #
-    self.hygiene
+    self.take_bath
 
     p "♪ Rub-a-dub just relaxing in the tub ♫"
   end
