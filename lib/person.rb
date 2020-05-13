@@ -71,6 +71,7 @@ class Person
         self.happiness = @happiness-2
         p 'blah blah partisan blah lobbyist'
 end
+end
 
   end
 
