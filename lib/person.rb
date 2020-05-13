@@ -10,7 +10,7 @@ class Person
     end
 
     def happiness=(new_happiness)
-      if new_happiness > 10 
+      if new_happiness > 10
         @happiness = 10
       end
     end
