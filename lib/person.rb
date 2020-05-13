@@ -9,5 +9,10 @@ class Person
         @hygiene = 8
     end
 
+    def happiness=(new_happiness)
+      if new_happiness > 10 
+        @happiness = 10
+      end
+    end
 
 end
