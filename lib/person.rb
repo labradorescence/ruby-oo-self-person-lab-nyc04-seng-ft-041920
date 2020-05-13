@@ -70,9 +70,13 @@ class Person
         person.happiness = person.happiness-2
         self.happiness = @happiness-2
         p 'blah blah partisan blah lobbyist'
+      elsif topic == 'weather'
+        person.happiness = person.happiness+1
+        self.happiness = @happiness+1
+        p 'blah blah sun blah rain'
+      else
+        p 'blah blah blah blah blah'
       end
-
-
   end
 
 end
