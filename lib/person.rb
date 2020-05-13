@@ -47,9 +47,15 @@ class Person
     @bank_account+=salary
     p "all about the benjamins"
   end
+
   def take_bath
     self.hygiene = @hygiene + 4
     p "♪ Rub-a-dub just relaxing in the tub ♫"
   end
 
+  def work_out
+    self.happiness = @happiness+2
+    self.hygiene = @hygiene-3
+
+   p '♪ another one bites the dust ♫'
 end
