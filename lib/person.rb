@@ -28,6 +28,6 @@ class Person
         @hygiene = new_hygiene
       end
     end
-    
+
 
 end
