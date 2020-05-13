@@ -59,3 +59,5 @@ class Person
 
    p '♪ another one bites the dust ♫'
 end
+
+end
