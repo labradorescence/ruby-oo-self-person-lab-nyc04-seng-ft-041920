@@ -12,7 +12,12 @@ class Person
     def happiness=(new_happiness)
       if new_happiness > 10
         @happiness = 10
+      elsif new_happiness < 0
+        @happiness = 0
+      else
+        @happiness = happiness
       end
+
     end
 
 end
