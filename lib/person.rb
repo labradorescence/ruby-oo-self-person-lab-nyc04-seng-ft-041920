@@ -52,15 +52,23 @@ class Person
     self.hygiene = @hygiene+4
     p "♪ Rub-a-dub just relaxing in the tub ♫"
   end
+
   def work_out
     self.happiness = @happiness+2
     self.hygiene = @hygiene-3
     p "♪ another one bites the dust ♫"
   end
+
   def call_friend(friends_name)
     friends_name.happiness = friends_name.happiness+3
     self.happiness = @happiness+3
     p "Hi #{friends_name.name}! It's #{self.name}. How are you?"
+  end
+
+  def start_conversation(person, topic)
+
+
+
   end
 
 end
