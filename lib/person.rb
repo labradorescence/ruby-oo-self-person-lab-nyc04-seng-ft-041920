@@ -48,11 +48,13 @@ class Person
     p "all about the benjamins"
   end
   def take_bath
-    @hygiene += 4
-    if @hygiene > 10
-      @hygiene = 10
-    end
-    #hygiene=(@hygiene+=4)
+    @hygiene = hygiene=(@hygiene+=4)
+    #@hygiene += 4
+    # if @hygiene > 10
+    #   @hygiene = 10
+    # end
+    # 
+    
     p "♪ Rub-a-dub just relaxing in the tub ♫"
   end
 
