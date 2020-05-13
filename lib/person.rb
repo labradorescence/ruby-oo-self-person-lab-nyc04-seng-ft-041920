@@ -48,14 +48,7 @@ class Person
     p "all about the benjamins"
   end
   def take_bath
-    @hygiene = hygiene=(@hygiene+=4)
-    #@hygiene += 4
-    if @hygiene > 10
-      @hygiene = 10
-    end
-    #
-    self.take_bath
-
+    self.hygiene = @hygiene + 4
     p "♪ Rub-a-dub just relaxing in the tub ♫"
   end
 
