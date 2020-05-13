@@ -9,5 +9,5 @@ class Person
         @hygiene = 8
     end
 
-    
+
 end
